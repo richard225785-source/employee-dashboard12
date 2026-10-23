@@ -1,0 +1,53 @@
+
+body {
+  margin: 0;
+  background-color: #f4f7fb;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link {
+  margin-left: 15px;
+}
+
+.nav-link.active {
+  color: #ffffff !important;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+h2 {
+  color: #243b64;
+  font-weight: 700;
+}
+
+.table {
+  background-color: white;
+  vertical-align: middle;
+}
+
+.table th,
+.table td {
+  padding: 14px;
+}
+
+.form-card {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+.form-control {
+  padding: 10px;
+}
+
+.btn-primary {
+  padding: 10px 24px;
+}
